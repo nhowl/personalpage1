@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin-top: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.top-container {
+background-color: #e4f2f0;
+position: relative;
+padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #e4f2f0;
+}
+
+.top-birds {
+  position: absolute;
+  right: 100px;
+  top: 20px;
+  width: 400px;
+  height: 400px;
+}
+
+.bottom-birds {
+  position: absolute;
+  left: 80px;
+  bottom: 350px;
+  width: 300px;
+  height: 300px;
+}
+
+.bubbles-img {
+width: 300px;
+height: 300px;
+}
+
+.profile-photo {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+.consultant-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.photo-img {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.webdesign-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.pm-img {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.skill-row {
+  width: 50%;
+  align-content: center;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.hr {
+  border: none;
+  border-bottom: 8px dotted #d4d7dd;
+  width: 5%;
+}
+
+.btn {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#d4d7dd 0%,
+		#d4d7dd 25%,
+		#d4d7dd);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#d4d7dd),
+		color-stop(0.25, #d4d7dd),
+		to(#d4d7dd));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #fafafa;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 1px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
